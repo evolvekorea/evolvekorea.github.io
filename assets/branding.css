@@ -1,0 +1,32 @@
+/* Shared header/logo application from the director-approved main design. */
+:root{--muted:#53635b;--orange:#943f19}
+.header.site-header{height:112px;gap:32px}
+.site-header .brand{display:flex;padding-block:10px;flex-shrink:0}
+.site-header .brand img{width:252px;height:auto}
+.site-header>nav.desktop-nav{display:flex;align-items:center;gap:32px;font-size:14px;font-weight:700}
+.site-header>nav.desktop-nav a{padding-block:15px}
+.site-header .mobile-menu{display:none}
+.footer .footer-brand img{width:252px;height:auto}
+.status{background:#e9eee5;color:#173e2c;font-size:12px;padding:7px 12px}
+.status.live{background:#173e2c;color:#fff}
+.status.live:before{background:#dfeeb5}
+.button{min-height:48px}
+summary:focus-visible{outline:3px solid var(--orange);outline-offset:5px}
+@media(max-width:1050px){
+ .site-header .brand img{width:226px}
+ .site-header>nav.desktop-nav{gap:20px;font-size:12px}
+}
+@media(max-width:760px){
+ .header.site-header{height:88px;gap:12px}
+ .site-header .brand img{width:218px}
+ .site-header>nav.desktop-nav{display:none}
+ .site-header .mobile-menu{display:block;position:relative;flex-shrink:0;font-size:12px}
+ .site-header .mobile-menu summary{list-style:none;cursor:pointer;width:48px;min-height:44px;display:flex;align-items:center;justify-content:center;gap:5px;font-weight:700}
+ .site-header .mobile-menu summary::-webkit-details-marker{display:none}
+ .site-header .mobile-menu nav{display:block;position:absolute;top:54px;right:0;left:auto;min-width:200px;padding:15px;background:#fff;border:1px solid var(--line);border-radius:12px;z-index:10;box-shadow:0 10px 25px #173e2c15}
+ .site-header .mobile-menu:not([open]) nav{display:none}
+ .site-header .mobile-menu nav>a{display:block;padding:14px 12px;min-height:44px;font-size:14px}
+ .site-header .mobile-menu nav .nav-contact{border:0;border-radius:0;margin:0}
+ .footer .footer-brand img{width:218px}
+}
+@media(max-width:360px){.header.site-header{gap:4px}.site-header .mobile-menu summary{width:44px}}
