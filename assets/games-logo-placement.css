@@ -1,0 +1,20 @@
+/* Design proposal only. Source repository is read-only. */
+.games-brand-logo{display:block;height:auto;max-width:100%;object-fit:contain;filter:none;mix-blend-mode:normal}
+.games-title{align-items:center;gap:56px}
+.games-title h1.games-brand-heading{margin:0;flex:0 1 420px;line-height:1}
+.games-brand-heading .games-brand-logo{width:420px;height:auto}
+.home-games-brand{display:grid;grid-template-columns:196px minmax(0,1fr) auto;align-items:center;gap:28px;background:#fff;border:1px solid var(--line);border-radius:20px;padding:16px 24px;margin-bottom:24px}
+.home-games-brand .games-brand-logo{width:196px}
+.home-games-brand .eyebrow{font-size:10px;margin-bottom:10px}
+.home-games-brand h2{font-size:23px;line-height:1.4;margin:0}
+.home-games-brand p:not(.eyebrow){font-size:14px;color:var(--muted);margin-top:10px}
+.brand-feature-copy h3.games-brand-heading{margin:20px 0;line-height:1;letter-spacing:normal}
+.brand-feature-copy .games-brand-logo{width:280px}
+@media(max-width:1050px){.home-games-brand{grid-template-columns:180px minmax(0,1fr);gap:20px}.home-games-brand .games-brand-logo{width:180px}.home-games-brand>.text-link{grid-column:2;width:max-content}.games-title{gap:32px}.games-title h1.games-brand-heading{flex-basis:380px}.games-brand-heading .games-brand-logo{width:380px}}
+@media(max-width:760px){.games-title h1.games-brand-heading{margin:0 0 28px}.games-brand-heading .games-brand-logo{width:320px;margin-inline:auto}.home-games-brand{display:flex;flex-direction:column;align-items:stretch;gap:20px;padding:20px;border-radius:16px}.home-games-brand .games-brand-logo{width:240px;margin-inline:auto}.home-games-brand h2{font-size:22px}.home-games-brand p:not(.eyebrow){font-size:14px}.home-games-brand>.text-link{align-self:flex-start}.brand-feature-copy .games-brand-logo{width:280px}}
+
+/* Revision 2: keep the game brand logo and description in one compact group. */
+.games-hero .games-title{display:grid;grid-template-columns:420px minmax(0,1fr);align-items:center;gap:32px;max-width:960px;margin-inline:auto}
+.games-hero .games-title>div{max-width:480px;padding-bottom:0}
+@media(max-width:1050px){.games-hero .games-title{grid-template-columns:380px minmax(0,1fr);gap:24px}}
+@media(max-width:760px){.games-hero .games-title{display:block;max-width:none;margin-inline:0}.games-hero .games-title>div{max-width:none}}
