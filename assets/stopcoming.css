@@ -1,0 +1,10 @@
+.stopcoming-page{--showcase-accent:#176b86;--showcase-soft:#f7edce;--showcase-border:#e1c990}
+.stopcoming-page .showcase-cover img{aspect-ratio:1024/500}
+.stopcoming-page .showcase-heading h1{word-break:keep-all}
+.stopcoming-test{display:flex;align-items:center;justify-content:space-between;gap:36px;padding:36px;background:#edf3ed;border:1px solid #d8e3d6;border-radius:22px;margin-top:20px}
+.stopcoming-test h2{font-size:clamp(26px,3vw,36px)}
+.stopcoming-test p{font-size:14px;color:var(--muted)}
+.stopcoming-test .button{flex-shrink:0;min-height:48px}
+.stopcoming-page :focus-visible{outline:3px solid #176b86;outline-offset:5px}
+@media(max-width:760px){.stopcoming-test{display:block;padding:24px}.stopcoming-test .button{margin-top:12px}.stopcoming-test p{font-size:13px}.stopcoming-page .showcase-facts li{font-size:12px}.stopcoming-page .showcase-pair figcaption{font-size:12px}.stopcoming-page .showcase-summary>p{font-size:15px}}
+
