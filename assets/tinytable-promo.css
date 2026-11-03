@@ -1,0 +1,33 @@
+/* Tiny Table's store artwork stays uncropped at every screen size. */
+.tinytable-page .showcase-intro{padding-block:48px 24px}
+.tinytable-promo{padding-top:48px;padding-bottom:56px}
+.tinytable-promo .section-heading{align-items:end;margin-bottom:28px}
+.tinytable-promo .section-heading h2{font-size:clamp(28px,3.4vw,42px);line-height:1.35}
+.tinytable-promo .section-heading>p{max-width:300px;font-size:13px;color:var(--muted)}
+.tinytable-promo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px 24px;list-style:none;padding:0;margin:0}
+.tinytable-promo-grid li{min-width:0;scroll-margin-top:24px}
+.tinytable-promo-grid figure{margin:0}
+.tinytable-promo-grid .gallery-open{display:block;width:100%;height:auto;aspect-ratio:9/16;padding:0;border:1px solid #e4cfaa;border-radius:18px;overflow:hidden;background:#faead3;box-shadow:0 10px 28px #4f321010;cursor:zoom-in}
+.tinytable-promo-grid .gallery-open img{display:block;width:100%;height:100%;object-fit:contain;padding:0}
+.tinytable-promo-grid .gallery-open:focus-visible{outline:3px solid #365c4a;outline-offset:5px}
+.tinytable-promo-grid figcaption{padding:17px 2px 0}
+.tinytable-promo-grid h3{display:flex;align-items:center;gap:10px;font-size:18px;margin:0 0 6px;line-height:1.5}
+.tinytable-promo-grid h3 span{font-size:11px;letter-spacing:.06em;color:#946141}
+.tinytable-promo-grid figcaption p{font-size:13px;line-height:1.7;color:var(--muted);margin:0;word-break:keep-all}
+.tinytable-promo-hint{display:none}
+.tinytable-page .showcase-note{background:#eee7d8;border:1px solid #ded4c2;border-radius:20px;padding:28px;margin-bottom:36px}
+@media(max-width:760px){
+ .tinytable-page .showcase-intro{padding-block:32px 16px}
+ .tinytable-promo{padding-top:30px;padding-bottom:32px}
+ .tinytable-promo .section-heading{margin-bottom:18px}
+ .tinytable-promo .section-heading>p{margin-top:14px;max-width:none;font-size:12px}
+ .tinytable-promo-hint{display:block;font-size:12px;color:#78503a;margin:0 0 14px}
+ .tinytable-promo-grid{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-inline:3px;padding:5px 3px 18px;scrollbar-width:thin;scrollbar-color:#ad8665 #eee7d8;overscroll-behavior-x:contain}
+ .tinytable-promo-grid li{flex:0 0 88%;scroll-snap-align:start}
+ .tinytable-promo-grid .gallery-open{border-radius:14px}
+ .tinytable-promo-grid figcaption{padding-top:14px}
+ .tinytable-promo-grid h3{font-size:17px}
+ .tinytable-page .showcase-note{padding:23px;max-width:calc(100% - 40px)}
+ .tinytable-page .showcase-note p{min-width:0}
+ .tinytable-page .showcase-note .button{margin-top:18px}
+}
