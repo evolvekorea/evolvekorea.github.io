@@ -44,3 +44,7 @@
 .tinytable-page .showcase-note{flex-wrap:wrap}
 .tinytable-page .showcase-note p{flex:1;min-width:240px}
 .tinytable-page .showcase-note .button{font-size:13px}
+
+/* Sudoku public release download action. */
+.sudoku-release-actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:22px}
+.sudoku-release-actions .button{font-size:14px}
