@@ -37,3 +37,10 @@
 .showcase-note p{font-size:12px;color:var(--muted);margin:0}
 @media(max-width:900px){.showcase-story{padding:25px;gap:30px;grid-template-columns:1.2fr 1fr}.showcase-pair{gap:12px}.showcase-story-copy>p:last-child{font-size:13px}}
 @media(max-width:760px){.showcase-hero{padding-top:25px}.showcase-heading{display:block;margin-bottom:25px}.showcase-heading h1{font-size:34px}.showcase-tagline{font-size:25px}.showcase-summary{margin-top:24px;max-width:none}.showcase-summary>p{font-size:13px}.showcase-cover img{border-radius:14px}.showcase-cover figcaption{font-size:10px}.showcase-facts{gap:8px;padding-top:22px}.showcase-facts li{font-size:10px;line-height:1.6;padding-inline:4px;word-break:keep-all}.showcase-intro{padding-block:45px}.showcase-intro .lead{font-size:14px}.showcase-screens{padding-block:45px 25px}.showcase-screens h2{font-size:28px}.showcase-story{display:flex;flex-direction:column-reverse;align-items:stretch;padding:23px 17px;gap:24px;margin-top:25px;border-radius:18px}.showcase-story-copy h3{font-size:25px;margin-bottom:14px}.showcase-story-copy .eyebrow{margin-bottom:12px}.showcase-pair{gap:12px}.showcase-pair figcaption{font-size:10px}.showcase-pair .gallery-open{border-radius:8px}.showcase-pair .gallery-open span{width:28px;height:28px;font-size:18px;right:8px;bottom:8px}.showcase-note{display:block;padding-bottom:35px}.showcase-note p{margin-top:15px;font-size:11px}}
+
+/* Tiny Table release links remain distinct from the screenshot gallery. */
+.tinytable-release-actions{display:flex;flex-wrap:wrap;gap:16px;align-items:center;margin-top:22px}
+.tinytable-release-actions .button{font-size:14px}
+.tinytable-page .showcase-note{flex-wrap:wrap}
+.tinytable-page .showcase-note p{flex:1;min-width:240px}
+.tinytable-page .showcase-note .button{font-size:13px}
