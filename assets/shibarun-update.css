@@ -1,0 +1,14 @@
+/* ShibaRun's screenshots retain their original framing at every screen size. */
+.shibarun-page .gameplay-gallery .gallery-open{aspect-ratio:2316/1080}
+.shibarun-page .character-gallery{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.shibarun-page .character-gallery h3{font-size:18px;align-items:baseline;gap:8px}
+.shiba-screen-note{font-size:12px;color:var(--muted);margin:24px 0 0;line-height:1.8}
+.shiba-update{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;border-top:1px solid var(--showcase-border);padding-top:36px;padding-bottom:48px}
+.shiba-update h2{font-size:clamp(24px,3vw,34px);line-height:1.4;margin:0 0 16px}
+.shiba-update p{font-size:14px;color:var(--muted)}
+.shiba-update ul{list-style:none;padding:0;margin:0;display:grid;gap:20px}
+.shiba-update li{display:grid;gap:6px}
+.shiba-update strong{font-size:16px}
+.shiba-update li span{font-size:14px;color:var(--muted);line-height:1.8}
+@media(max-width:1000px){.shibarun-page .character-gallery{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.shibarun-page .character-gallery{grid-template-columns:1fr}.shiba-update{grid-template-columns:1fr;gap:20px;padding-top:28px;padding-bottom:32px}.shibarun-page .launch-actions{gap:16px}.shibarun-page .showcase-facts{flex-wrap:wrap}}
